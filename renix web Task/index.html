@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="jquery-3.6.1.min.js"></script>
+    <script src="popper.min.js"></script>
+    <script src="bootstrap.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rymo shopping website</title>
+</head>
+<body>
+    <header style="width:100%;background-color: antiquewhite;">
+        <div class="row">
+            <div class="col-sm-12">
+                <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+                    <button class="navbar-toggler" data-toggle="collapse" data-target="#moh">
+                        <span class="navbar-toggler-icon text-light" style="background:orange;">
+                            &#9776;
+                        </span>
+                    </button>
+                    <div class="navbar-collapse collapse" id="moh">
+                        <ul class="navbar-nav">
+                            <li class="nav-item"><a href="#" class="nav-link text-light">Home</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-light">Blog</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-light">Contact</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-light">Products</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link text-light">About Us</a></li>
+                        </ul>
+                    </div>
+                        <img src="logo2.png" class="rounded-circle img-fluid mx-sm-5" style="height:67px;margin-bottom:-80px; margin-left:-200px;background-color:rgb(16, 14, 14)">
+                        <a href="#"><i class="fa-solid fa-cart-shopping text-light mx-sm-5 px-sm-5 mt-sm-3" style="font-size:40px"></i></a>
+                        <form class="form-inline form-group mt-sm-3">
+                            <input type="text" name="search" placeholder="Search..." class="form-control" style="width:200px;height:44px" required>
+                            <button class="btn text-light" style="background:orange;">
+                                <i class="fa-solid fa-magnifying-glass mt-1" style="font-size:20px"></i></button>
+                        </form>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <br><br><br><br>
+    <section>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="carosel slide" data-interval="2000" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="card-group">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <img src="shoe1.jpg" class="rounded mx-auto d-block" height="400px" width="400px" style="box-shadow:4px 15px 25px rgb(0, 0, 0)">
+                                        <button class="btn btn-dark ml-3" style="margin-top:-70px;"><strong><a href="#" class="text-light"> SHOP NOW</a></strong></button>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <img src="watch3.jpg" class="rounded mx-auto d-block" height="400px" width="400px" style="box-shadow:4px 15px 25px rgb(0, 0, 0)">
+                                        <button class="btn btn-dark ml-3" style="margin-top:-70px;"><strong><a href="#" class="text-light"> SHOP NOW</a></strong></button>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <img src="ring1.jpg" class="rounded mx-auto d-block" height="400px" width="400px" style="box-shadow:4px 15px 25px rgb(0, 0, 0)">
+                                        <button class="btn btn-dark ml-3" style="margin-top:-70px;"><strong><a href="#" class="text-light"> SHOP NOW</a></strong></button>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                         <div class="carousel-item">
+                            <div class="card-group">
+                                <div class="card">
+                                    <div class="card-header">
+                                        <img src="caro4.jpg" class="rounded mx-auto d-block" height="400px" width="400px" style="box-shadow:4px 15px 25px rgb(0, 0, 0)" >
+                                        <button class="btn btn-dark ml-3" style="margin-top:-70px;"><strong><a href="#" class="text-light"> SHOP NOW</a></strong></button>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <img src="caro3.jpg" class="rounded mx-auto d-block" height="400px" width="400px" style="box-shadow:4px 15px 25px rgb(0, 0, 0)">
+                                        <button class="btn btn-dark ml-3" style="margin-top:-70px;"><strong><a href="#" class="text-light" class="text-dark"> SHOP NOW</a></strong></button>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="card-header">
+                                        <img src="watch4.jpg" class="rounded mx-auto d-block" height="400px" width="400px" style="box-shadow:4px 15px 25px rgb(0, 0, 0)">
+                                        <button class="btn btn-dark ml-3" style="margin-top:-70px;"><strong><a href="#" class="text-light"> SHOP NOW</a></strong></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="row">
+            <img src="back1.jpg">
+            <div class="col-sm-12 ml-5" style="margin-top:-400px">
+                <h5>NEW ARRIVALS</h5>
+                <h1><strong style="color:orangered;font-size: 50px;">Best Prices</strong><strong> This Year</strong></h1>
+                <p class="lead text-justify">Shop our wide range of comfortable outfits
+                    for all seasons and styles.
+                    <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                    <button class="btn btn-dark btn-lg text-light">SHOP NOW</button>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section>
+        <div class="row">
+            <div class="col-sm-12 mx-auto d-block">
+                <div class="card-group">
+                    <div class="card mr-4" width="300px" style="background-color:antiquewhite">
+                        <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                            <img src="col1.jpg" width="300px" height="300px">
+                        </div>
+                        <br>
+                        <div class="card-body  mx-auto d-block">
+                            <p><strong>Product |  ₹1000 </strong><del>₹1500</del></p>
+                            <p>Quantity:- <button class=" btn btn-dark btn-sm text-light"><strong> - </strong></button>  1  <button class="btn btn-dark btn-sm text-light"><strong> +</strong></button></p>
+                            <button class="btn btn-warning mx-auto d-block">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card mr-4" width="300px" style="background-color: antiquewhite;">
+                        <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                            <img src="col3.jpg" width="300px" height="300px">
+                        </div>
+                        <br>
+                        <div class="card-body  mx-auto d-block">
+                            <p><strong>Product |  ₹1000 </strong><del>₹1500</del></p>
+                            <p>Quantity:- <button class=" btn btn-dark btn-sm text-light"><strong> - </strong></button>  1  <button class="btn btn-dark btn-sm text-light"><strong> +</strong></button></p>
+                            <button class="btn btn-warning mx-auto d-block">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card mr-4" width="300px" style="background-color: antiquewhite;">
+                        <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                            <img src="col4.jpg" width="300px" height="300px">
+                        </div>
+                        <br>
+                        <div class="card-body  mx-auto d-block">
+                            <p><strong>Product |  ₹1000 </strong><del>₹1500</del></p>
+                            <p>Quantity:- <button class=" btn btn-dark btn-sm text-light"><strong> - </strong></button>  1  <button class="btn btn-dark btn-sm text-light"><strong> +</strong></button></p>
+                            <button class="btn btn-warning mx-auto d-block">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card" width="300px" style="background-color: antiquewhite;">
+                        <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                            <img src="col2.jpg" width="300px" height="300px">
+                        </div>
+                        <br>
+                        <div class="card-body  mx-auto d-block">
+                            <p><strong>Product |  ₹1000 </strong><del>₹1500</del></p>
+                            <p>Quantity:- <button class=" btn btn-dark btn-sm text-light"><strong> - </strong></button>  1  <button class="btn btn-dark btn-sm text-light"><strong> +</strong></button></p>
+                            <button class="btn btn-warning mx-auto d-block">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-12 mx-auto d-block">
+                <div class="card-group">
+                    <div class="card mr-4" width="300px" style="background-color:antiquewhite">
+                        <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                            <img src="23.jpg" width="300px" height="300px">
+                        </div>
+                        <br>
+                        <div class="card-body  mx-auto d-block">
+                            <p><strong>Product |  ₹1000 </strong><del>₹1500</del></p>
+                            <p>Quantity:- <button class=" btn btn-dark btn-sm text-light"><strong> - </strong></button>  1  <button class="btn btn-dark btn-sm text-light"><strong> +</strong></button></p>
+                            <button class="btn btn-warning mx-auto d-block">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card mr-4" width="300px" style="background-color: antiquewhite;">
+                        <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                            <img src="8.jpg" width="300px" height="300px">
+                        </div>
+                        <br>
+                        <div class="card-body  mx-auto d-block">
+                            <p><strong>Product |  ₹1000 </strong><del>₹1500</del></p>
+                            <p>Quantity:- <button class=" btn btn-dark btn-sm text-light"><strong> - </strong></button>  1  <button class="btn btn-dark btn-sm text-light"><strong> +</strong></button></p>
+                            <button class="btn btn-warning mx-auto d-block">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card mr-4" width="300px" style="background-color: antiquewhite;">
+                        <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                            <img src="25.jpg" width="300px" height="300px">
+                        </div>
+                        <br>
+                        <div class="card-body  mx-auto d-block">
+                            <p><strong>Product |  ₹1000 </strong><del>₹1500</del></p>
+                            <p>Quantity:- <button class=" btn btn-dark btn-sm text-light"><strong> - </strong></button>  1  <button class="btn btn-dark btn-sm text-light"><strong> +</strong></button></p>
+                            <button class="btn btn-warning mx-auto d-block">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card" width="300px" style="background-color: antiquewhite;">
+                        <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                            <img src="26.jpg" width="300px" height="300px">
+                        </div>
+                        <br>
+                        <div class="card-body  mx-auto d-block">
+                            <p><strong>Product |  ₹1000 </strong><del>₹1500</del></p>
+                            <p>Quantity:- <button class=" btn btn-dark btn-sm text-light"><strong> - </strong></button>  1  <button class="btn btn-dark btn-sm text-light"><strong> +</strong></button></p>
+                            <button class="btn btn-warning mx-auto d-block">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <div class="row text-center">
+        <div class="col-sm-12">
+            <a href="#sec1" data-toggle="collapse" class="btn text-light btn-sm px-4" style="background-color:rgb(242, 135, 5); font-size: 30px;"><strong> View All</strong></a>
+        </div>
+    </div>
+    <section id="sec1" class="collapse">
+        <div class="row">
+            <div class="col-sm-12 mx-auto d-block">
+                <div class="card-group">
+                    <div class="card mr-4" width="300px" style="background-color:antiquewhite">
+                        <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                            <img src="10.jpg" width="300px" height="300px">
+                        </div>
+                        <br>
+                        <div class="card-body  mx-auto d-block">
+                            <p><strong>Product |  ₹1000 </strong><del>₹1500</del></p>
+                            <p>Quantity:- <button class=" btn btn-dark btn-sm text-light"><strong> - </strong></button>  1  <button class="btn btn-dark btn-sm text-light"><strong> +</strong></button></p>
+                            <button class="btn btn-warning mx-auto d-block">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card mr-4" width="300px" style="background-color: antiquewhite;">
+                        <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                            <img src="13.jpg" width="300px" height="300px">
+                        </div>
+                        <br>
+                        <div class="card-body  mx-auto d-block">
+                            <p><strong>Product |  ₹1000 </strong><del>₹1500</del></p>
+                            <p>Quantity:- <button class=" btn btn-dark btn-sm text-light"><strong> - </strong></button>  1  <button class="btn btn-dark btn-sm text-light"><strong> +</strong></button></p>
+                            <button class="btn btn-warning mx-auto d-block">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card mr-4" width="300px" style="background-color: antiquewhite;">
+                        <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                            <img src="watch4.jpg" width="300px" height="300px">
+                        </div>
+                        <br>
+                        <div class="card-body  mx-auto d-block">
+                            <p><strong>Product |  ₹1000 </strong><del>₹1500</del></p>
+                            <p>Quantity:- <button class=" btn btn-dark btn-sm text-light"><strong> - </strong></button>  1  <button class="btn btn-dark btn-sm text-light"><strong> +</strong></button></p>
+                            <button class="btn btn-warning mx-auto d-block">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card" width="300px" style="background-color: antiquewhite;">
+                        <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                            <img src="watch3.jpg" width="300px" height="300px">
+                        </div>
+                        <br>
+                        <div class="card-body  mx-auto d-block">
+                            <p><strong>Product |  ₹1000 </strong><del>₹1500</del></p>
+                            <p>Quantity:- <button class=" btn btn-dark btn-sm text-light"><strong> - </strong></button>  1  <button class="btn btn-dark btn-sm text-light"><strong> +</strong></button></p>
+                            <button class="btn btn-warning mx-auto d-block">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-sm-12 mx-auto d-block">
+                <div class="card-group">
+                    <div class="card mr-4" width="300px" style="background-color:antiquewhite">
+                        <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                            <img src="sh1 (1).jpg" width="300px" height="300px">
+                        </div>
+                        <br>
+                        <div class="card-body  mx-auto d-block">
+                            <p><strong>Product |  ₹1000 </strong><del>₹1500</del></p>
+                            <p>Quantity:- <button class=" btn btn-dark btn-sm text-light"><strong> - </strong></button>  1  <button class="btn btn-dark btn-sm text-light"><strong> +</strong></button></p>
+                            <button class="btn btn-warning mx-auto d-block">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card mr-4" width="300px" style="background-color: antiquewhite;">
+                        <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                            <img src="sh1 (2).jpg" width="300px" height="300px">
+                        </div>
+                        <br>
+                        <div class="card-body  mx-auto d-block">
+                            <p><strong>Product |  ₹1000 </strong><del>₹1500</del></p>
+                            <p>Quantity:- <button class=" btn btn-dark btn-sm text-light"><strong> - </strong></button>  1  <button class="btn btn-dark btn-sm text-light"><strong> +</strong></button></p>
+                            <button class="btn btn-warning mx-auto d-block">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card mr-4" width="300px" style="background-color: antiquewhite;">
+                        <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                            <img src="sh1 (3).jpg" width="300px" height="300px">
+                        </div>
+                        <br>
+                        <div class="card-body  mx-auto d-block">
+                            <p><strong>Product |  ₹1000 </strong><del>₹1500</del></p>
+                            <p>Quantity:- <button class=" btn btn-dark btn-sm text-light"><strong> - </strong></button>  1  <button class="btn btn-dark btn-sm text-light"><strong> +</strong></button></p>
+                            <button class="btn btn-warning mx-auto d-block">Add to Cart</button>
+                        </div>
+                    </div>
+                    <div class="card" width="300px" style="background-color: antiquewhite;">
+                        <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                            <img src="sh1 (4).jpg" width="300px" height="300px">
+                        </div>
+                        <br>
+                        <div class="card-body  mx-auto d-block">
+                            <p><strong>Product |  ₹1000 </strong><del>₹1500</del></p>
+                            <p>Quantity:- <button class=" btn btn-dark btn-sm text-light"><strong> - </strong></button>  1  <button class="btn btn-dark btn-sm text-light"><strong> +</strong></button></p>
+                            <button class="btn btn-warning mx-auto d-block">Add to Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section>
+        <div class="row">
+            <div class="col-sm-12">
+                <img src="banner.webp" class="mx-auto d-block">
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-sm-12"><h1 class="text-center"><strong>Our Unique Features</strong></h1></div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12" class="float:left;" style="background-color: rgb(168, 207, 219); width:100%">
+                <div class="card float-left mr-4 mx-auto d-block" width="200px" style="background-color: rgb(168, 207, 219);">
+                    <div class="card-header  mx-auto d-block" style=" border-radius: 400px;box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                        <img src="prf1.webp" width="280px" height="280px" class="rounded-circle">
+                    </div>
+                    <br>
+                </div>
+                <div class="card float-left mr-4 mx-auto d-block" width="200px" style="background-color: rgb(168, 207, 219);">
+                    <div class="card-header  mx-auto d-block" style=" border-radius: 400px;box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                        <img src="prf2.jpg" width="280px" height="280px" class="rounded-circle">
+                    </div>
+                    <br>
+                </div>
+                <div class="card float-left mr-3 mx-auto d-block" width="200px" style="background-color: rgb(168, 207, 219);">
+                    <div class="card-header  mx-auto d-block" style=" border-radius: 400px;box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                        <img src="prf3.webp" width="280px" height="280px" class="rounded-circle">
+                    </div>
+                    <br>
+                </div>
+                <div class="card float-left mx-auto d-block" width="200px" style="background-color: rgb(168, 207, 219);">
+                    <div class="card-header  mx-auto d-block" style=" border-radius: 400px;box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                        <img src="prf4.jpg" width="280px" height="280px" class="rounded-circle">
+                    </div>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12" style="background-color:bisque">
+                <marquee behavior="scroll" direction="left">
+               <a href="#"> <img src="br1 (1).png"></a>
+               <a href="#"> <img src="br1 (2).png"></a>
+               <a href="#"> <img src="br1 (2).webp"></a>
+               <a href="#"> <img src="br1 (3).png"></a>
+               <a href="#"> <img src="br1 (3).webp"></a>
+               <a href="#"> <img src="br1 (4).png"></a>
+               <a href="#"> <img src="br1 (4).webp"></a>
+               <a href="#"> <img src="br1 (5).png"></a>
+               <a href="#"> <img src="br1 (5).webp"></a>
+               <a href="#"> <img src="br1 (6).png"></a>
+               <a href="#"> <img src="br1 (6).webp"></a>
+            </marquee>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section>
+        <div class="row">
+            <div class="col-sm-12">
+            <h1 class="text-center mx-auto d-block"><strong>Customers who tried and loved  <img src="logo1.png">
+        </strong></h1>
+    </div>
+    </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card-group">
+                <div class="card float-left mr-4" width="200px" style="background-color: rgb(235, 166, 219);">
+                    <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                        <i class="fa-regular fa-star" style="color:yellow;font-size:40px"></i>
+                        <i class="fa-regular fa-star" style="color:yellow;font-size:40px"></i>
+                        <i class="fa-regular fa-star" style="color:rgb(0, 0, 0);font-size:40px"></i>
+                        <i class="fa-regular fa-star" style="color:rgb(5, 5, 5);font-size:40px"></i>
+                        <i class="fa-regular fa-star" style="color:black;font-size:40px"></i>
+                    <h2><STRONG>Vamsi</STRONG></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                <div class="card float-left mr-4" width="200px" style="background-color: rgb(235, 166, 219);">
+                    <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                        <i class="fa-regular fa-star" style="color:yellow;font-size:40px"></i>
+                        <i class="fa-regular fa-star" style="color:yellow;font-size:40px"></i>
+                        <i class="fa-regular fa-star" style="color:yellow;font-size:40px"></i>
+                        <i class="fa-regular fa-star" style="color:rgb(0, 0, 0);font-size:40px"></i>
+                        <i class="fa-regular fa-star" style="color:black;font-size:40px"></i>
+                    <h2><STRONG>Uday kumar</STRONG></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div> 
+                </div>
+                <div class="card float-left mr-4" width="200px" style="background-color: rgb(235, 166, 219);">
+                 <div class="card-header  mx-auto d-block" style="box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                        <i class="fa-regular fa-star" style="color:yellow;font-size:40px"></i>
+                        <i class="fa-regular fa-star" style="color:yellow;font-size:40px"></i>
+                        <i class="fa-regular fa-star" style="color:yellow;font-size:40px"></i>
+                        <i class="fa-regular fa-star" style="color:yellow;font-size:40px"></i>
+                        <i class="fa-regular fa-star" style="color:black;font-size:40px"></i>
+                    <h2><STRONG>sai Kumar</STRONG></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div> 
+                </div>
+                <div class="card float-left mr-4" width="200px" style="background-color: rgb(235, 166, 219);">                  
+                     <div class="card-header  mx-auto d-block" style=" border-radius: 0px;box-shadow:4px 15px 20px rgb(0, 0, 0);background-color: antiquewhite;">
+                        <i class="fa-regular fa-star" style="color:yellow;font-size:40px"></i>
+                        <i class="fa-regular fa-star" style="color:yellow;font-size:40px"></i>
+                        <i class="fa-regular fa-star" style="color:yellow;font-size:40px"></i>
+                        <i class="fa-regular fa-star" style="color:yellow;font-size:40px"></i>
+                        <i class="fa-regular fa-star" style="color:yellow;font-size:40px"></i>
+                    <h2><STRONG>Mohan Krishna Sai</STRONG></h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="text-center mx-auto d-block"><strong>Behind the goodness of  <img src="logo1.png">
+                </strong></h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="card-group">
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="las1.jpg" style="background-position:cover;">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="las2.jpg" style="background-position:cover;">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="las3.jpg" style="background-position:cover;">
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <img src="bad.jpg" style="background-position:cover;" height="340px"width="300px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <br>
+
+    <div style="background-color:rgb(17, 16, 16)">
+        <div class="container">
+            <div class="row text-center" style="background-color:rgb(17, 16, 16)">
+                <div class="col-sm-2">
+                    <a href="#" class="text-light"><p class="lead mt-4" style="font-size:15px;">Abebooks <br>
+                           <span class="text-secondary" style="font-size:15px;"> Books,arts <br>
+                            & collectibles</span>
+                    </p></a>
+                    <a href="#" class="text-light"><p class="lead mt-4" style="font-size:15px;">Shopbop <br>
+                        <span class="text-secondary" style="font-size:15px;">Designer <br>
+                             Fashion Brands</span>
+                 </p></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" class="text-light"><p class="lead mt-4" style="font-size:15px;">Rymo Web series <br>
+                           <span class="text-secondary" style="font-size:15px;"> Scalable cloud <br>
+                            Computing services</span>
+                    </p></a>
+                    <a href="#" class="text-light"><p class="lead mt-4" style="font-size:15px;">Rymo business <br>
+                        <span class="text-secondary" style="font-size:15px;"> Everything for <br> your bussiness
+                         </span>
+                 </p></a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#" class="text-light"><p class="lead mt-4" style="font-size:15px;">Audible <br>
+                           <span class="text-secondary" style="font-size:15px;"> Download <br> 
+                            Audio Books</span>
+                    </p></a>
+                    <a href="#" class="text-light"><p class="lead mt-4" style="font-size:15px;">Prime Now <br>
+                        <span class="text-secondary" style="font-size:15px;"> 2-hour Delivery <br>on Everyday Items 
+                         </span>
+                 </p></a>
+                </div>
+                <div class="col-sm-3">
+                    <a href="#" class="text-light"><p class="lead mt-4" style="font-size:15px;;">DPReview<br>
+                           <span class="text-secondary" style="font-size:15px;"> Digital <br> 
+                            Photpgraphy</span>
+                    </p></a>
+                    <a href="#" class="text-light"><p class="lead mt-4" style="font-size:15px;">Rymo Prime Music<br>
+                        <span class="text-secondary" style="font-size:15px;"> 90 million songs,ad-free<br>Over 15-million prodcast episodes
+                         </span>
+                 </p></a>
+                </div>
+                <div class="col-sm-2">
+                    <a href="#" class="text-light"><p class="lead mt-4" style="font-size:15px;">IMDb <br>
+                           <span class="text-secondary" style="font-size:15px;"> Movies,TV<br> 
+                            & Celebrities</span>
+                    </p></a>
+                    <a href="#">
+                        <img src="payment.png">
+                    </a>
+                </div>
+            </div>
+        </div>
+        </div>
+    <footer class="footer text-light text-center bg-dark">
+        <p>Conditions of Use & Sale &nbsp; &nbsp; Privacy Notice &nbsp; &nbsp; Interest-Based Ads</p>
+        <p><i class="fa-regular fa-copyright"></i><a href="#"> +91 8367747499</a>,<a href="#"> mohansai019@gmail.com </a>or its affilites</p>
+
+    </footer>
+</html>
